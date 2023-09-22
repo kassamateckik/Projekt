@@ -14,10 +14,44 @@
 
 ul {
     list-style-type:"卐 ";
+    list-style-position: inside;
+    font-size: 1.4em;
 }
 
 @media screen and (max-width:800px) {
     #carouselExampleIndicators{
         display: none;
     }
+}
+
+header {
+    background-color:rgb(196, 4, 4);
+}
+
+span {
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
+body {
+    background-image: url(images/flag.jpg);
+    background-size:contain;
+    background-repeat: repeat-y;
+    
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    
+}
+
+#hatter {
+    background-color: rgba(0,0,0, 70%);
+    margin: 0% 20%;
+    text-align: center;
+    color: white;
 }
