@@ -11,3 +11,13 @@
     display: block;
     margin: auto;
 }
+
+ul {
+    list-style-type:"卐 ";
+}
+
+@media screen and (max-width:800px) {
+    #carouselExampleIndicators{
+        display: none;
+    }
+}
