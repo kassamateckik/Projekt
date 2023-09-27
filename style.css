@@ -55,3 +55,9 @@ p {
     text-align: center;
     color: white;
 }
+
+iframe {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
