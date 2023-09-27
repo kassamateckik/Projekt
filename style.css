@@ -10,6 +10,7 @@
     height: 600px;
     display: block;
     margin: auto;
+    border-radius: 20px;
 }
 
 ul {
@@ -18,11 +19,6 @@ ul {
     font-size: 1.4em;
 }
 
-@media screen and (max-width:800px) {
-    #carouselExampleIndicators{
-        display: none;
-    }
-}
 
 header {
     background-color:rgb(196, 4, 4);
@@ -54,10 +50,38 @@ p {
     margin: 0% 20%;
     text-align: center;
     color: white;
+    border: 2px black solid;
 }
 
-iframe {
+#spotify {
     display: block;
-    margin: auto;
+    margin-right: 10px;
     margin-bottom: 15px;
+    width: 30%;
+    height:352px;
+    float: right;   
+}
+
+#oldaltetejegomb {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    opacity: 85%;
+}
+
+#oldaltetejegomb:hover {
+    color: gray;
+    opacity: 100%;
+}
+
+@media screen and (max-width:800px) {
+    #carouselExampleIndicators{
+        display: none;
+    }
+
+    iframe {
+        display: none;
+    }
 }
