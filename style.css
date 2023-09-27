@@ -82,12 +82,25 @@ p {
     opacity: 100%;
 }
 
-@media screen and (max-width:800px) {
+#vicc{
+    font-style: italic;
+}
+
+table, tr, td, th{
+    border: 2.2px solid white;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
     #carouselExampleIndicators{
         display: none;
     }
+}
 
-    iframe {
+@media screen and (max-width: 1282px) {
+    #spotify {
         display: none;
     }
+    
 }
