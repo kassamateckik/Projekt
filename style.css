@@ -93,7 +93,7 @@ table, tr, td, th{
 }
 
 @media screen and (max-width: 800px) {
-    #carouselExampleIndicators{
+    #carouselExampleFade{
         display: none;
     }
 }
