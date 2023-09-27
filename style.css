@@ -5,6 +5,10 @@
 
 }
 
+#cimm {
+    color:white;
+}
+
 #carouselExampleIndicators {
     width: 800px;
     height: 600px;
@@ -21,10 +25,11 @@ ul {
 
 
 header {
-    background-color:rgb(196, 4, 4);
+    background-color:rgb(160, 0, 0);
+    padding: 10px;
 }
 
-span {
+#kereszt {
     border-radius: 30px;
     background-color: white;
     padding: 5px;
