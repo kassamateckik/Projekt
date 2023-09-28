@@ -2,7 +2,6 @@
     text-align: center;
     font-weight: bold;
     font-style: italic;
-
 }
 
 #cimm {
@@ -29,7 +28,7 @@ header {
     padding: 10px;
 }
 
-#kereszt {
+.kereszt {
     border-radius: 30px;
     background-color: white;
     padding: 5px;
@@ -65,7 +64,7 @@ p {
     margin-bottom: 15px;
     width: 30%;
     height:352px;
-    float: right;   
+    float: right;
 }
 
 .link {
